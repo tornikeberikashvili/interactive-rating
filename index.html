@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>interactive rating</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="img/favicon-32x32.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="contein">
+      <div class="star-div">
+        <img src="img/icon-star.svg" alt="star img" class="image" />
+      </div>
+
+      <h1 class="question">How did we do?</h1>
+      <p class="para">
+        Please let us know how we did with your support request. All feedback is
+        appreciated to help us improve our offering!
+      </p>
+      <ul>
+        <li><button class="btn">1</button></li>
+        <li><button class="btn">2</button></li>
+        <li><button class="btn">3</button></li>
+        <li><button class="btn">4</button></li>
+        <li><button class="btn">5</button></li>
+      </ul>
+      <button class="submit" id="submit">SUBMIT</button>
+    </div>
+
+    <div class="thenk-you-div hidden">
+      <img src="img/illustration-thank-you.svg" alt="mob" class="mob" />
+      <p class="vitch-nam">You selected out <span id="reting"></span> of 5</p>
+      <h1>Thank you!</h1>
+      <p class="second-p">
+        We appreciate you taking the time to give a rating. If you ever need
+        more support, don’t hesitate to get in touch!
+      </p>
+      <button class="rate" id="again">RATA AGAIN</button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

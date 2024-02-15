@@ -1,0 +1,150 @@
+body {
+  background-color: #131518;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.contein {
+  background: radial-gradient(
+    98.96% 98.96% at 50% 0%,
+    #232a34 0%,
+    #181e27 100%
+  );
+
+  width: 412px;
+  height: 416px;
+  border-radius: 25px;
+  position: relative;
+  /* display: none; */
+}
+
+.star-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #262e38;
+  width: 48px;
+  height: 48px;
+  border-radius: 50px;
+  position: absolute;
+  left: 48px;
+  top: 40px;
+}
+.image {
+  max-width: 100%;
+  max-height: 100%;
+}
+.question {
+  font-family: "Overpass", sans-serif;
+  color: white;
+  margin-left: 52px;
+  margin-top: 115px;
+}
+.para {
+  color: #969fad;
+  text-align: left;
+  max-width: 43ch;
+  margin-left: 52px;
+}
+li {
+  list-style-type: none;
+}
+.contein ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 11px;
+  justify-content: space-evenly;
+}
+
+.contein ul li button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  background-color: #262e38;
+  color: white;
+  margin-bottom: 20px;
+}
+.contein ul li button:hover {
+  background-color: #fc7614;
+}
+.contein ul li button:focus {
+  background-color: #7c8798;
+}
+
+.submit {
+  background-color: #fc7614;
+  width: 90%;
+  color: wheat;
+  padding: 10px;
+  border-radius: 30px;
+  border: none;
+  margin-left: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submit:hover {
+  background-color: white;
+  color: #fc7614;
+}
+
+.thenk-you-div {
+  background: radial-gradient(
+    98.96% 98.96% at 50% 0%,
+    #232a34 0%,
+    #181e27 100%
+  );
+
+  width: 412px;
+  height: 416px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mob {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.vitch-nam {
+  background-color: #262e38;
+  border-radius: 30px;
+  color: #fc7614;
+}
+
+.thenk-you-div h1 {
+  color: white;
+}
+.second-p {
+  color: #969fad;
+  max-width: 49vh;
+  text-align: center;
+}
+
+.rate {
+  background-color: #fc7614;
+  width: 90%;
+  color: wheat;
+  padding: 10px;
+  border-radius: 30px;
+  border: none;
+  margin-left: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-bottom: 53px;
+}
+.hidden {
+  display: none;
+}
+.rate:hover {
+  background-color: white;
+  color: #fc7614;
+}
